@@ -1,0 +1,6 @@
+local InfiniteMoneyEnabled = true
+game:GetService("UserInputService").MoneyRequest
+ if InfiniteMoneyEnabled then
+     game:GetService"Player".LocalPlayer.Character:FindFirstChildOfClass ' Humaniod ' : changeState("Moneys")
+  end
+end)
